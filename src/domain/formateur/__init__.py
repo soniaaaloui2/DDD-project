@@ -1,3 +1,4 @@
+# src/domain/formateur/__init__.py
 """Formateur domain - Bounded Context"""
 
 from .value_objects import (
@@ -35,6 +36,15 @@ from .exceptions import (
     DemandeNonValidableException,
     DemandeNonRejetableException,
     MotifRejetObligatoireException,
+    EmailDejaUtiliseException,
+)
+
+from .repositories import (
+    DemandeCompteFormateurRepositoryInterface,
+)
+
+from .services import (
+    VerifierUniciteEmail,
 )
 
 __all__ = [
@@ -65,4 +75,9 @@ __all__ = [
     'DemandeNonValidableException',
     'DemandeNonRejetableException',
     'MotifRejetObligatoireException',
+    # Repositories
+    'DemandeCompteFormateurRepositoryInterface',
+    # Services
+    'VerifierUniciteEmail',
+    'EmailDejaUtiliseException',
 ]

@@ -5,6 +5,7 @@ from .competences_requises_exception import CompetencesRequisesException
 from .demande_non_validable_exception import DemandeNonValidableException
 from .demande_non_rejectable_exception import DemandeNonRejetableException
 from .motif_rejet_obligatoire_exception import MotifRejetObligatoireException
+from .email_deja_utilise_exception import EmailDejaUtiliseException
 
 __all__ = [
     'DemandeCompteFormateurException',
@@ -12,4 +13,5 @@ __all__ = [
     'DemandeNonValidableException',
     'DemandeNonRejetableException',
     'MotifRejetObligatoireException',
+    'EmailDejaUtiliseException',
 ]
