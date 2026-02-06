@@ -1,5 +1,3 @@
-"""Classe de base pour tout les value objects"""
-
 from abc import ABC, abstractmethod
 from typing import Any
 
