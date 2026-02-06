@@ -1,4 +1,4 @@
-"""Entity - Base class for all Entities"""
+"""Classe de base pour tout les Entity"""
 
 from typing import TypeVar, Generic
 

@@ -1,5 +1,5 @@
 """Domain layer"""
 
-from . import shared, formateur
+from . import shared, trainer
 
-__all__ = ['shared', 'formateur']
+__all__ = ['shared', 'trainer']

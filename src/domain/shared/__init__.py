@@ -1,4 +1,4 @@
-"""Shared Kernel - Reusable foundations"""
+"""Fichier partagé"""
 
 from .value_object import ValueObject
 from .entity import Entity
