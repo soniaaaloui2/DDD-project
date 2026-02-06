@@ -3,8 +3,8 @@
 import sys
 from pathlib import Path
 
-project_root = Path(__file__).parent.parent.parent.parent
-sys.path.insert(0, str(project_root))
+src_path = Path(__file__).parent.parent.parent.parent.parent / "src"
+sys.path.insert(0, str(src_path))
 
 from domain.trainer import (
     Email, FullName, SkillLevel, SkillId, SkillName, RequestId, RequestStatus, CandidatInfo
