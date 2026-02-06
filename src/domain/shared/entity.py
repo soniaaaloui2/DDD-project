@@ -1,5 +1,3 @@
-"""Classe de base pour tout les Entity"""
-
 from typing import TypeVar, Generic
 
 ID = TypeVar('ID')
