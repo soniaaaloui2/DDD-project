@@ -1,7 +1,7 @@
 """Event: La demande de compte formateur a été soumise"""
 
 from datetime import datetime
-from src.domain.trainer.value_objects import RequestId, Email
+from domain.trainer.value_objects import RequestId, Email
 
 
 class TrainerAccountRequestSubmitted:

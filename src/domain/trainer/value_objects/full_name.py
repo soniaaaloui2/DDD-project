@@ -1,6 +1,6 @@
 """FullName Value object"""
 
-from src.domain.shared import ValueObject
+from domain.shared import ValueObject
 
 
 class FullName(ValueObject):

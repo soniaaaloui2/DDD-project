@@ -1,7 +1,7 @@
 """SkillId Value object - identifiant unique pour les compétences"""
 
 import uuid
-from src.domain.shared import ValueObject
+from domain.shared import ValueObject
 
 
 class SkillId(ValueObject):

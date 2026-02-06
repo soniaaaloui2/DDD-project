@@ -1,7 +1,7 @@
 """Email Value object - validé et normalisé"""
 
 import re
-from src.domain.shared import ValueObject
+from domain.shared import ValueObject
 
 
 class Email(ValueObject):

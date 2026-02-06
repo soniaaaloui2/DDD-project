@@ -1,7 +1,7 @@
 """RequestId Value object - identifiant pour la demande"""
 
 import uuid
-from src.domain.shared import ValueObject
+from domain.shared import ValueObject
 
 
 class RequestId(ValueObject):

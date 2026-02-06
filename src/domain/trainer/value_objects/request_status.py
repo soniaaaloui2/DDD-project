@@ -1,7 +1,7 @@
 """RequestStatus Value object - status de la demande"""
 
 from enum import Enum
-from src.domain.shared import ValueObject
+from domain.shared import ValueObject
 
 
 class RequestStatus(ValueObject):

@@ -1,7 +1,7 @@
 """CandidatInfo Value Object - Regroupe toutes les informations du candidat"""
 
-from src.domain.shared import ValueObject
-from src.domain.trainer.value_objects import Email, FullName
+from domain.shared import ValueObject
+from domain.trainer.value_objects import Email, FullName
 
 
 class CandidatInfo(ValueObject):

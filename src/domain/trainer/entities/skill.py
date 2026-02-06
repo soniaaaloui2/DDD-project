@@ -1,8 +1,8 @@
 """Skill Entity - Compétences d'un formateur"""
 
-from src.domain.shared import Entity
-from src.domain.trainer.value_objects import SkillId, SkillName, SkillLevel
-from src.domain.trainer.exceptions import SkillCannotDowngradeException
+from domain.shared import Entity
+from domain.trainer.value_objects import SkillId, SkillName, SkillLevel
+from domain.trainer.exceptions import SkillCannotDowngradeException
 
 
 class Skill(Entity[SkillId]):

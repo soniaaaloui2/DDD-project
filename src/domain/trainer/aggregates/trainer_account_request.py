@@ -3,17 +3,18 @@
 from datetime import datetime
 from typing import List
 
-from src.domain.shared import Entity
-from src.domain.trainer.value_objects import (
+from domain.shared import Entity
+from domain.trainer.value_objects import (
     RequestId,
-    CandidatInfo,
+    Email,
     RequestStatus,
+    CandidatInfo,
 )
-from src.domain.trainer.entities import Skill
-from src.domain.trainer.events import (
+from domain.trainer.entities import Skill
+from domain.trainer.events import (
     TrainerAccountRequestSubmitted,
 )
-from src.domain.trainer.exceptions import (
+from domain.trainer.exceptions import (
     RequiredSkillsException,
 )
 

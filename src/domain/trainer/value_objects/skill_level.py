@@ -1,7 +1,7 @@
 """SkillLevel Value object - niveau de compétence"""
 
 from enum import Enum
-from src.domain.shared import ValueObject
+from domain.shared import ValueObject
 
 
 class SkillLevel(ValueObject):

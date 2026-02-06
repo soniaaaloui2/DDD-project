@@ -1,8 +1,8 @@
 """Domaine service: Vérifier l'unicité de l'email pour les demandes de compte formateur"""
 
-from src.domain.trainer.exceptions.email_already_used_exception import EmailAlreadyUsedException
-from src.domain.trainer.value_objects import Email
-from src.domain.trainer.repositories import TrainerAccountRequestRepositoryInterface
+from domain.trainer.exceptions.email_already_used_exception import EmailAlreadyUsedException
+from domain.trainer.value_objects import Email
+from domain.trainer.repositories import TrainerAccountRequestRepositoryInterface
 
 
 class VerifyEmailUniqueness:

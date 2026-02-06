@@ -1,6 +1,6 @@
 """Exception: au moins une compétence est requise"""
 
-from src.domain.trainer.exceptions import TrainerAccountRequestException
+from domain.trainer.exceptions import TrainerAccountRequestException
 
 
 class RequiredSkillsException(TrainerAccountRequestException):

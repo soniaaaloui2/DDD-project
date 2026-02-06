@@ -1,6 +1,6 @@
 """SkillName Value object - Nom de la compétence"""
 
-from src.domain.shared import ValueObject
+from domain.shared import ValueObject
 
 
 class SkillName(ValueObject):

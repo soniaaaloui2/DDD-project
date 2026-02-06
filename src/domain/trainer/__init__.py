@@ -42,6 +42,7 @@ __all__ = [
     # Value Objects
     'Email',
     'FullName',
+    'CandidatInfo',
     'SkillId',
     'SkillName',
     'SkillLevel',

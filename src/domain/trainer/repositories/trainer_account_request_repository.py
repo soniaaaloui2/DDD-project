@@ -3,8 +3,8 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
 
-from src.domain.trainer.value_objects import RequestId, Email, RequestStatus
-from src.domain.trainer.aggregates import TrainerAccountRequest
+from domain.trainer.value_objects import RequestId, Email, RequestStatus
+from domain.trainer.aggregates import TrainerAccountRequest
 
 
 class TrainerAccountRequestRepositoryInterface(ABC):
