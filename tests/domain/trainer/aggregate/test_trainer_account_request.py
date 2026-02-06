@@ -20,7 +20,6 @@ from domain.trainer import (
     TrainerAccountRequestSubmitted,
 )
 
-# fonctions helpers
 def create_candidat_info(email: str = "jean.dupont@example.com") -> CandidatInfo:
     return CandidatInfo.create(
         first_name="Jean",
